@@ -73,7 +73,7 @@
           </div>
 
         <h3>
-        <a href="index.html#indice" class="boton">Volver a calcular</a>
+        <a href="index.php#indice" class="boton2">Volver a calcular</a>
         </h3>
      
     </div>
