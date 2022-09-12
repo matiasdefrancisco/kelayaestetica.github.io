@@ -83,52 +83,6 @@ header h2{
     bottom: 40px; 
 }
 
-/* Esto seria el menu desplegable que creamos ultimo para sacar informacion y modificar el que ya teniamos .
-
-#btn-mas{
-    background-color: black;
-    display:none;
-    background-image: url(img/menu.svg);
-}
-
-.nav{
-    position:fixed;
-    top: 15px;
-    right: 10px;
-}
-
-.redes a, .icon-mas2{
-    position:relative;
-    z-index: 999;
-    display: block;
-    background-color: black;
-    color: white;
-    width:100%;
-    height: 80px;
-    line-height:30px;
-    text-align: center;
-    transition: all 500ms ease ;
-    letter-spacing: 4px;
-    padding: 9px;
-    border-radius: 9px; 
-}
-
-.redes a{
-    margin-bottom: -15px;
-    opacity:0;
-    visibility: hidden;
-}
-
-#btn-mas:checked~ .redes a {
-    margin-bottom: 10px;
-    opacity: 1;
-    visibility: visible;
-}
-
-*/
-
-
-
 .nav{
     z-index: 999;
     --state-menu: translate(-100%);
@@ -216,11 +170,6 @@ header h2{
     transition: 1ms all ease;
 }
 
-
-
-
-/* seccion Sobre Mi */
-
 main{
     color: black;
     text-align: center;
@@ -287,10 +236,6 @@ article.sobremi{
 }
 
 
-/* Seccion masajes */
-
-
-
 article.masajes{
     margin-top: 20px;
     width: 100%;
@@ -320,7 +265,7 @@ article.masajes{
     border:#811c81 solid 3px;
 }
 
-.cards {
+.cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
     gap: 10px;
@@ -358,7 +303,7 @@ article.masajes{
 }
 
 .card a{
-    color: white;
+    color: #fff;
     display: block;
     padding:10px;
     width:30%;
@@ -372,16 +317,12 @@ article.masajes{
     
 }
 
-
-
 .card a:hover{
     box-shadow: 1px 2px 8px rgba(0,0,0,0.3);
     transition: all 0.7s ease;
     background-color: rgb(237, 127, 247);
     color: black;
 }
-
-/* SECCION BENEFICIOS */
 
 article .beneficios{
    border: 3px solid black;
@@ -390,7 +331,6 @@ article .beneficios{
    height: auto;
    display: grid;
    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
-
 }
 
 .bene-texto{
@@ -407,10 +347,6 @@ article .beneficios{
     margin: 0 auto;
     margin-bottom: 0px;
 }
-
-
-/* SECCION APARATOLOGIA */
-
 
 .card2{
     width: 90%;
@@ -486,14 +422,13 @@ article .beneficios{
     transition: all 0.7s ease;
 }
 
-/* SECCION INDICE DE MASA CORPORAL*/
-
 .indice{
     background-color: #811c81;
     width: 100%;
     height: auto;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 150px;
     text-align: center;
     position: relative;
     align-items: center;
@@ -576,7 +511,6 @@ span{
     color:#811c81;
 }
 
-/* SECCION FOOTER */
 
 .footer{
     width: 100%;
@@ -651,13 +585,11 @@ span{
 }
 
 @media (min-width: 768px){
-
-    /* header para 768 px en adelante*/
+    
     .container-xl{
         background-image: 
         linear-gradient(rgba(243, 237, 245, 0.651),rgba(0, 0, 0, 0)),
         url(img/posiblefondo4-modificado.jpg);
-        
     }
     
 
@@ -674,11 +606,6 @@ span{
         font-size: 75px;
     }
 
-    
-  
-
-    /* barra de navegacion para 768 px en adelante*/
-  
 
     .nav{
         --state-menu: translate(-100%);
@@ -736,8 +663,6 @@ span{
         margin-top: 5px;
         padding-top: 5px;
     }
-    /* seccion sobremi para 768 px en adelante */
-
 
     .sobre{
        margin-top: 150px;
@@ -760,8 +685,7 @@ span{
         height: auto;
     }
 
-    /* Seccion masajes para 768px en adelante */
-   
+    
     article.masajes{
         margin-top: 100px;
         height: auto;
@@ -848,7 +772,6 @@ span{
         color:black;
     }
 
-   /* Seccion beneficios para 768px en adelante */
    article .beneficios{
     border: 3px solid black;
     margin-top: 100px;
@@ -866,7 +789,7 @@ span{
     position: relative;
     top: 5px;
    }
-   /* Seccion aparatologia para 768px en adelante */
+
 
    .card2{
     width: 90%;
@@ -932,7 +855,7 @@ span{
         color: black;
         transition: all 0.7s ease;
     }
-    /* Seccion indice masa corporal para 768px en adelante */
+
 
     .indice{
         background-color: #811c81;
@@ -998,7 +921,6 @@ span{
         width: 350px;
         border-radius: 4px;
         border: 4px solid black;
-        
     }
 
     
@@ -1035,10 +957,8 @@ span{
         margin: 0 auto;
         font-size: 18px;
     }
-    /* Seccion Footer para 768px en adelante */
 
-
-
+    
     .footer{
         width: 100%;
         background-color: #272127;
@@ -1106,8 +1026,6 @@ span{
     .footer .grupo-2 small{
         font-size: 15px;
     }
-
-
 
 }
 
