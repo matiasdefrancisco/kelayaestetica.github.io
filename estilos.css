@@ -155,15 +155,16 @@ header h2{
 
 .nav_item{
     list-style: none;
-    margin-left: 0px;   
+    margin-left: 0px;  
+    margin-top: -10px;
 }
 
 .nav_link{
     color: #fff;
     text-decoration: none;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     border-radius: 9px; 
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .nav_link:hover{
@@ -663,8 +664,8 @@ span{
     }
 
     .nav_item{
-        margin-top: 15%;
-        padding-top: 5px;
+        margin-top: 3px;
+        padding-top: 7px;
     }
 
     .sobre{
